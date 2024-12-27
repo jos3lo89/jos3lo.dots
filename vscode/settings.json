@@ -1,7 +1,6 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "Jetbrains Mono, Consolas, 'Courier New', monospace",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 16,
   "editor.lineNumbers": "relative",
   "editor.fontLigatures": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -16,24 +15,38 @@
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, JetBrains Mono",
+
+  /* ======================= Terminal ======================= */
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.stickyScroll.enabled": false,
+
+  /* ======================= Ventana ======================= */
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "compact",
+
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
   "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Kanagawa",
+  "workbench.colorTheme": "Lapis Peridot Dark",
+
   "breadcrumbs.enabled": false,
+
+  /* ======================= Explorador de archivos ======================= */
   "explorer.compactFolders": false,
   "files.exclude": {
     "**/node_modules": true
   },
+
+  /* ======================= Teclados en pantalla ======================= */
   "screencastMode.fontSize": 20,
   "screencastMode.verticalOffset": 3,
   "screencastMode.mouseIndicatorColor": "#efefef00",
+
+  /* ======================= React Snippets ======================= */
   "reactSnippets.settings.importReactOnTop": false,
+
+  /* ======================= Vim ======================= */
   "vim.leader": "<space>",
   "vim.hlsearch": true,
   "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
@@ -73,6 +86,8 @@
     { "before": ["<"], "commands": ["editor.action.outdentLines"] },
     { "before": [">"], "commands": ["editor.action.indentLines"] }
   ],
+
+  /* ======================= Prettier ======================= */
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -86,5 +101,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme"
 }
